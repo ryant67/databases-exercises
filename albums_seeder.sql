@@ -1,15 +1,15 @@
 USE codeup_test_db;
 
-INSERT INTO albums (artist_name, record_name, release_date, record_sales, record_genre)
+INSERT INTO albums (artist_name, record_name, release_year, record_sales, record_genre)
 VALUES ('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop, Post-Disco, Funk, Rock');
 
-INSERT INTO albums (artist_name, record_name, release_date, record_sales, record_genre)
+INSERT INTO albums (artist_name, record_name, release_year, record_sales, record_genre)
 VALUES ('AC/DC', 'Back in Black', 1980, 30.1, 'Hard Rock');
 
-INSERT INTO albums (artist_name, record_name, release_date, record_sales, record_genre)
+INSERT INTO albums (artist_name, record_name, release_year, record_sales, record_genre)
 VALUES ('Eagles', 'Their Greatest Hits (1971 - 1975)', 1976, 41.2, 'Country Rock, Soft Rock, Folk Rock');
 
-INSERT INTO albums (artist_name, record_name, release_date, record_sales, record_genre)
+INSERT INTO albums (artist_name, record_name, release_year, record_sales, record_genre)
 VALUES ('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop, Post-Disco, Funk, Rock'),
        ('AC/DC', 'Back in Black', 1980, 30.1, 'Hard Rock'),
        ('Eagles', 'Their Greatest Hits (1971 - 1975)', 1976, 41.2, 'Country Rock, Soft Rock, Folk Rock'),
