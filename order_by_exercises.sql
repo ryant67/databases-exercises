@@ -21,6 +21,3 @@ SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya') ORDER BY 
 SELECT * FROM employees WHERE first_name IN ('Irena', 'Vidya', 'Maya') ORDER BY last_name;
 
 SELECT * FROM employees WHERE last_name LIKE '%e%' ORDER BY emp_no;
-
-
-
