@@ -1,6 +1,6 @@
 USE employees;
 
-SELECT CONCAT(first_name, ' ', last_name) FROM employees WHERE last_name LIKE 'E%' AND last_name LIKE '%e';
+SELECT CONCAT(first_name, ' ', last_name) as 'Full Name' FROM employees WHERE last_name LIKE 'E%' AND last_name LIKE '%e';
 
 SELECT * FROM employees WHERE MONTH(birth_date) = 12 AND DAY(birth_date) = 25;
 
